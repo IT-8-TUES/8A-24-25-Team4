@@ -1,0 +1,79 @@
+/* Reset and base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Main navigation bar */
+#menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    background-color: #f8f8f8;
+    box-shadow: 0 0.2rem 0.5rem rgba(10, 9, 9, 0.1);
+}
+
+
+/* Logo and title container */
+#logo-title-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Logo styling */
+#menu-logo {
+    height: 5rem;
+    width: auto;
+}
+
+/* Site title */
+#site-title {
+    margin: 0;
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Search bar container */
+#menu-search {
+    display: flex;
+    margin-left: 2rem;
+}
+
+/* Search input */
+#search-input {
+    padding: 0.4rem 0.8rem;
+    border: 0.1rem solid #c6c6c6;
+    border-radius: 0.4rem 0 0 0.4rem;
+}
+
+/* Search button */
+#search-button {
+    padding: 0.4rem 0.8rem;
+    background-color: #6f6f6f;
+    border: none;
+    border-radius: 0 0.4rem 0.4rem 0;
+    color: white;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #4c4b4b;
+}
+
+/* Right side menu item */
+#menu-right {
+    display: flex;
+}
+
+/* Link styling */
+.link {
+    color: #7e7d7d;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #0b0b0b;
+    text-decoration: underline;
+}
