@@ -1,10 +1,67 @@
-h1{
-    color: rgb(47, 4, 66);
-    background-color: rgb(68, 107, 9);
+/* Reset and base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
 
+/* Main navigation bar */
+#menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    background-color: #f8f8f8;
+    box-shadow: 0 0.2rem 0.5rem rgba(10, 9, 9, 0.1);
+}
+
+/* Logo and title container */
+#logo-title-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Logo styling */
+#menu-logo {
+    height: 5rem;
+    width: auto;
+}
+
+/* Site title */
+#site-title {
+    margin: 0;
     font-size: 2rem;
-    font-weight: lighter;
-    font-style:oblique;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font:larger;
+    color: #333;
+}
+#menu-right {
+    display: flex;
+}
+
+#input-container{
+    padding: 1rem 0.8rem;
+    border-radius: 0.4rem 0 0 0.4rem;
+    font-size: 1.5rem;
+    height: 5rem;
+    width: 4rem;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#output-container{
+    padding: 1rem 0.8rem;
+    font-size: 1.5rem;
+}
+
+/* Link styling */
+.link {
+    color: #7e7d7d;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #0b0b0b;
+    text-decoration: underline;
 }

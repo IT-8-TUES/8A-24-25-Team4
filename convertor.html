@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-
-    <head>
-        <title>convertor</title>
-        <link rel="stylesheet" href="cssNaConventora.css">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <h1>conventor</h1>
-        <h1>VoxRomana</h1>
-        <h1><а href="searchRomanDates.html">История</a></h1>
-        <img src="logo.png"/>
-        <div class="container">
-            <div class="item">1</div>
-            <div class="item">2</div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roman-Numbers</title>
+    <link rel="stylesheet" href="cssNaConventora.css">
+</head>
+<body>
+    <nav id="menu">
+            <div id="logo-title-container">
+                <img src="./logo.png" alt="Logo" id="menu-logo">
+                <h1 id="site-title">VoxRomana</h1>
+            </div>
+           
+        <div id="menu-right">
+            <a href="searchRomanDates.html" class="link">История</a>
         </div>
-        <p>Число в арабски цифри:</p>
-        <p>Число в римски цифри:</p>
-
-
+    </nav>
+    <div id="container">
+        <h1>Roman Numerals Converter</h1>
+        <div id="input-container">
+            <input type="text" id="input" placeholder="Enter a number...">
+            <button id="convert-button">Convert</button>
+        </div>
+        <div id="output-container">
+                <input type="text" id="input" placeholder=" ">
+            </div>
+    <script src="conventor.js"></script>
+</body>
+</html>
 
     
