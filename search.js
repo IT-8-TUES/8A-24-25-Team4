@@ -17,7 +17,12 @@ document.addEventListener('DOMContentLoaded', function() {
         if (!isNaN(number) && number >= -7 && number <= 8) {
             switch(number)
             {
-                case -1: window.location.href = '-1vek.html';
+                case -1: window.location.href = '-1vek.html';break;
+                case 1: window.location.href = '1vek.html';break;
+                case 2: window.location.href = '2vek.html';break;
+                case 3: window.location.href = '3vek.html';break;
+                case 4: window.location.href = '4vek.html';break;
+                case 5: window.location.href = '5vek.html';break;
             }
             } else {
             console.log('Performing normal search for:', input);

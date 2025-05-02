@@ -36,25 +36,23 @@ body {
     display: flex;
 }
 
-#input-container{
-    padding: 1rem 0.8rem;
-    border-radius: 0.4rem 0 0 0.4rem;
-    font-size: 1.5rem;
-    height: 5rem;
-    width: 4rem;
-}
 #container{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 20rem;
+}
+
+#input-container{
+    padding: 1rem 0.8rem;
+    border-radius: 0.4rem 0 0 0.4rem;
+    font-size: 1.5rem;
 }
 #output-container{
-    padding: 1rem 0.8rem;
+    padding-top: 5rem;
     font-size: 1.5rem;
 }
 
-/* Link styling */
 .link {
     color: #7e7d7d;
     font-size: 1.5rem;
