@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const input = searchInput.value.trim();
         const number = parseInt(input);
         
-        if (!isNaN(number) && number >= -7 && number <= 8) {
+        if (!isNaN(number) && number >= -8 && number <= 5) {
             switch(number)
             {
                 case -1: window.location.href = '-1vek.html';break;
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 case 5: window.location.href = '5vek.html';break;
             }
             } else {
-            console.log('Performing normal search for:', input);
+                alert('Invalid number. Please enter a number between -8 and 5.');
         }
     }
 });
