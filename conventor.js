@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     button.addEventListener('click', function() {
         const number = parseInt(input.value, 10); 
-        outputField.value = arabicToRoman(number);
+        output.value = arabicToRoman(number);
     });
 
     input.addEventListener('keypress', function(e) {
@@ -22,6 +22,9 @@ document.addEventListener('DOMContentLoaded', function() {
         if (number < 1 || number > 3999)
             return "Enter a number between 1 and 3999";
         else {
+            if (isNaN(number)) {
+                return "Enter a number between 1 and 3999";
+            }
             for (let key in romanNumList) {
                 a = Math.floor(number / romanNumList[key]);
                 if (a >= 0) {

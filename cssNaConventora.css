@@ -1,10 +1,8 @@
-/* Reset and base styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
 }
 
-/* Main navigation bar */
 #menu {
     display: flex;
     justify-content: space-between;
@@ -14,19 +12,16 @@ body {
     box-shadow: 0 0.2rem 0.5rem rgba(10, 9, 9, 0.1);
 }
 
-/* Logo and title container */
 #logo-title-container {
     display: flex;
     align-items: center;
 }
 
-/* Logo styling */
 #menu-logo {
     height: 5rem;
     width: auto;
 }
 
-/* Site title */
 #site-title {
     margin: 0;
     font-size: 2rem;
@@ -40,18 +35,25 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20rem;
+    flex-direction: column;
+}
+#input-container {
+    padding-top: 2rem;
+}
+#output-container {
+    padding-top: 2rem;
+    padding-right: 7rem;
+}
+#convert-button {
+    width: 7rem;
+    font-size: 1.5rem;
+}
+#input-container input,
+#output-container input {
+    width: 30rem; /* Increase as needed */
+    font-size: 1.5rem;
 }
 
-#input-container{
-    padding: 1rem 0.8rem;
-    border-radius: 0.4rem 0 0 0.4rem;
-    font-size: 1.5rem;
-}
-#output-container{
-    padding-top: 5rem;
-    font-size: 1.5rem;
-}
 
 .link {
     color: #7e7d7d;
