@@ -26,6 +26,7 @@ body {
     margin: 0;
     font-size: 2rem;
     color: #333;
+    text-decoration: none;
 }
 #menu-right {
     display: flex;
