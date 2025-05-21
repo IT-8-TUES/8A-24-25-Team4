@@ -51,7 +51,7 @@ body {
 }
 #input-container input,
 #output-container input {
-    width: 30rem; /* Increase as needed */
+    width: 30rem;
     font-size: 1.5rem;
 }
 

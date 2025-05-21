@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roman-Numbers</title>
-    <link rel="stylesheet" href="RomanSearch.css">
+    <link rel="stylesheet" href="C:\8A-24-25-Team4\Kaloyan_Ganev\RomanSearch.css">
+    <link rel="stylesheet" href="C:\8A-24-25-Team4\Daniel_Filipov\forma.css">
 </head>
 <body>
-    <nav id="menu">
+    <div id="menu">
         <div id="logo-title-container">
-            <a href = "C:\8A-24-25-Team4\Kaloyan_Ganev\searchRomanDates.html"><img src="C:\8A-24-25-Team4\Kaloyan_Ganev\logo.png" alt="Logo" id="menu-logo"></a>
-            <h1><a href = "C:\8A-24-25-Team4\Kaloyan_Ganev\searchRomanDates.html" id="site-title">VoxRomana</h1></a>
+            <a href="C:\8A-24-25-Team4\Kaloyan_Ganev\searchRomanDates.html">
+                <img src="C:\8A-24-25-Team4\Kaloyan_Ganev\logo.png" alt="Logo" id="menu-logo">
+            </a>
+            <h1><a href="C:\8A-24-25-Team4\Kaloyan_Ganev\searchRomanDates.html" id="site-title">VoxRomana</a></h1>
         </div>
         <div id="menu-search">
             <input type="text" placeholder="Enter a century..." id="search-input">
@@ -19,8 +22,65 @@
         <div id="menu-right">
             <a href="C:\8A-24-25-Team4\Daniel_Rashkov\convertor.html" class="link">Конвертор</a>
         </div>
-    </nav>
+    </div>
 
-    <script src="search.js"></script>
+    <div id="content">
+        <div class="info-section">
+            <img src="C:\8A-24-25-Team4\Kaloyan_Ganev\roman_colosseum.jpg" alt="Колизеумът в Рим">
+            <div class="text">
+                <h2>Колизеумът в Рим</h2>
+                <p>Колизеумът, или още познат като флавийския амфитеатър, е една от най-запомнящите се забележителности в Италия. Бил е използван за гладиаторски битки и пиеси, базирани на класическата митология</p>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <img src="C:\8A-24-25-Team4\Kaloyan_Ganev\julius_caesar.jpg" alt="Юлий Цезар">
+            <div class="text2">
+                <h2>Гай Юлий Цезар</h2>
+                <p>Юлий Цезар е бил изключителен военен пълководец и ключова фигура в прехода от Римската република към Римската империя. Неговото убийство слага край на Републиката и води до възхода на императорската власт.</p>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <img src="C:\8A-24-25-Team4\Kaloyan_Ganev\roman_legion.jpg" alt="Римски легион">
+            <div class="text3">
+                <h2>Римските Легиони</h2>
+                <p>Римските легиони са били основната военна сила на Империята. Те са се отличавали с отлична организация, дисциплина и обучение, което е позволило на Рим да завладее огромни територии.</p>
+            </div>
+        </div>
+    </div>
+
+    
+    <button id="floating-button" title="Отвори формуляр">✉</button>
+
+    <div id="form-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Изпрати съобщение</h2>
+            <form id="feedback-form" class="form-flex">
+                <div class="form-group">
+                    <label for="name">Име:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Съобщение:</label>
+                    <input type = "text" id="message" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit">Изпрати</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <p>&copy; 2025 VoxRomana. All rights reserved.</p>
+        <p>Made by Team 4 - 8A Class</p>x
+    </footer>
+
+    <script src="C:\8A-24-25-Team4\Kaloyan_Ganev\search.js"></script>
+    <script src = "C:\8A-24-25-Team4\Daniel_Filipov\forma.js"></script>
 </body>
 </html>
