@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roman-Numbers</title>
-    <link rel="stylesheet" href="cssNaConventora.css">
+    <link rel="stylesheet" href="C:\8A-24-25-Team4\Daniel_Rashkov\cssNaConventora.css">
+     <link rel="stylesheet" href="C:\8A-24-25-Team4\Daniel_Filipov\forma.css">
 </head>
 <body>
     <nav id="menu">
@@ -28,7 +29,36 @@
                 <input type="text" id="output" placeholder=" ">
             </div>
         </div>
-    <script src="conventor.js"></script>
+        <button id="floating-button" title="Отвори формуляр">✉</button>
+
+    <div id="form-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Изпрати съобщение</h2>
+            <form id="feedback-form" class="form-flex">
+                <div class="form-group">
+                    <label for="name">Име:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Съобщение:</label>
+                    <input type = "text" id="message" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit">Изпрати</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+        <footer id="footer">
+            <p>&copy; 2025 VoxRomana. All rights reserved.</p>
+            <p>Made by Team 4 - 8A Class</p>
+    </footer>
+    <script src="C:\8A-24-25-Team4\Daniel_Rashkov\conventor.js"></script>
+    <script src = "C:\8A-24-25-Team4\Daniel_Filipov\forma.js"></script>
 </body>
 </html>
 
